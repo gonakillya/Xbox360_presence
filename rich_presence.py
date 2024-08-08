@@ -77,10 +77,10 @@ def set_game(ip_address, start_time, last_title_id, last_printed_minute):
     
     if not title_id:
         return start_time, last_title_id, last_printed_minute
-
-    if title_id == '00000000':
-        game_name = "Aurora"
-        image_url = "http://xboxunity.net/Resources/Lib/Icon.php?tid=00000166"
+        
+    if title_id == 'F5D10000':
+        game_name = "Offline"
+        image_url = "https://seeklogo.com/images/X/xbox-360-games-logo-5B22C25FE1-seeklogo.com.png"
     else:
         game_name = game_names.get(title_id.upper(), f"Unknown Title ID: {title_id}")
         image_url = f"http://www.xboxunity.net/Resources/Lib/Icon.php?tid={title_id}"
