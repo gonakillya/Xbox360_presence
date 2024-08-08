@@ -1,5 +1,5 @@
 # RGH Xbox 360 Discord Rich Presence Script
-
+(Fork for a stupid addition that is barely used and probably only benefits me idk)
 ![example](media/example.png)
 
 ### Please note this script as well as this readme was written by ChatGPT.
